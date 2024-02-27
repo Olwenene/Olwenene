@@ -1,4 +1,4 @@
-From pypy:latest
-WORkDIR / app
+FROM pypy:latest
+WORKDIR /app
 COPY . /app
 CMD python inventory.py
